@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Williams Dev | Portfolio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+	<!-- Lato - Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+</head>
+
+<body>
+	<nav>
+		<div class="nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#autobio">About</a></li>
+				<li><a href="#portfolio">Featured Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<section id="home"></section>
+
+	<header>
+		<div class="header-content">
+			<h1 id="header">Crystal R. Williams</h1>
+			<h1>Front-End Web Developer</h1>	
+		</div>				
+	</header>
+
+			<section id="autobio">
+
+				<h2>ABOUT</h2>
+
+				<div id="autobioWrapper">
+					<div id="aboutImg">
+						<img src="images/me.jpg" alt="Crystal R. Williams" class="img-thumbnail" id="portrait">
+
+						<a href="downloadables/resume.pdf">
+							<button class="btn-resume-download"><img src="images/downloadImg.png" alt="Download Resume">Download Resume</button>	
+						</a>
+					</div>
+
+					<div id="about">
+						Crystal R. Williams is a front-end web developer and graduate of both UCF's Coding BootCamp and the University of South Florida. Crystal utilizes her experience with front-end technologies such as Angular 2+, Ionic 2+, AngularJs, JavaScript, CSS3, HTML5 and back-end technologies such as PHP, NodeJs, ExpressJs etc. to create advanced mobile responsive web applications for both businesses and individuals alike.
+					</div>				
+				</div>	
+
+			</section>
+
+			<section id="portfolio">
+				<div class="container">
+				<h2 class="section-heading">FEATURED WORK</h2>
+				<div class="portfolio-items">
+					<div class="portfolio-item">
+						<a href="#" class="portfolio-link" data-toggle="modal">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content"></div>
+							</div>
+							<img src="images/work/407CompRep.png">
+						</a>
+						<div class="portfolio-caption">
+							<h4>407 Computer Repair</h4>
+							<p>Ticket Management System</p>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<a href="#" class="portfolio-link">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content"></div>
+							</div>
+							<img src="images/work/scrapeIt.png">
+						</a>
+						<div class="portfolio-caption">
+							<h4>ScrapeIt</h4>
+							<p>NodeJs, MongoDB</p>
+						</div>
+					</div>
+				
+					<div class="portfolio-item">
+						<a href="#" class="portfolio-link" data-toggle="modal">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content"></div>
+							</div>
+							<img src="images/work/starlink.png" class="img-responsive">
+						</a>
+						<div class="portfolio-caption">
+							<h4>Starlink</h4>
+							<p>AngularJs, NodeJs, MongoDB</p>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<a href="#" class="portfolio-link">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content"></div>
+							</div>
+							<img src="images/work/movieTrivia.png">
+						</a>
+						<div class="portfolio-caption">
+							<h4>Trivia Game: Movie Edition</h4>
+							<p>JavaScript, JQuery</p>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<a href="#" class="portfolio-link" data-toggle="modal">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content"></div>
+							</div>
+							<img src="images/work/scrubber.png" class="img-responsive">
+						</a>
+						<div class="portfolio-caption">
+							<h4>New York Times Article Scrubber</h4>
+							<p>NY Times API, JQuery</p>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<a href="#" class="portfolio-link" data-toggle="modal">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content"></div>
+							</div>
+							<img src="images/work/soundSplash.png" class="img-responsive">
+						</a>
+						<div class="portfolio-caption">
+							<h4>SoundSplash</h4>
+							<p>Google Maps API, Youtube API</p>
+						</div>
+					</div>																
+				</div>
+				</div>		
+			</section>
+
+			<section id="contact">
+				<h2>Contact</h2>
+				<form name="contact-form" method="post" onsubmit="return false;">
+					<!-- <div id="fnameDiv" onfocus="focusFunc(this.id)" onclick="focusFunc(this.id)" onfocusout="focusOut(this.id)"> -->
+					<div id="fnameDiv">	
+						<p class="frmLbl"><label for="fname">First Name </label></p>
+						<p><input type="text" name="fname" id="fname" class=""></p>
+					</div>
+
+					<!-- <div id="lnameDiv" onfocus="focusFunc(this.id)" onclick="focusFunc(this.id)" onfocusout="focusOut(this.id)"> -->
+					<div id="lnameDiv">	
+						<p class="frmLbl"><label for="lname">Last Name </label></p>
+						<p><input type="text" name="lname" id="lname" class=""></p>
+					</div>
+
+					<!-- <div id="emailDiv" onfocus="focusFunc(this.id)" onclick="focusFunc(this.id)" onfocusout="focusOut(this.id)"> -->
+					<div id="emailDiv">	
+						<p class="frmLbl"><label for="email">Email </label></p>
+						<p><input type="text" name="email" id="email" class=""></p>
+					</div>
+
+					<!-- <div id="phoneDiv" onfocus="focusFunc(this.id)" onclick="focusFunc(this.id)" onfocusout="focusOut(this.id)"> -->
+					<div id="phoneDiv">
+						<p class="frmLbl"><label for="phone">Phone Number </label></p>
+						<p><input type="text" name="phone" id="phone" class=""></p>
+					</div>
+
+					<!-- <div id="commentDiv" onfocus="commentFocus(this.id)" onclick="commentFocus(this.id)" onfocusout="commentFocusOut(this.id)"> -->
+					<div id="commentDiv">	
+						<p class="frmLbl"><label for="comments">Comments</label></p>
+						<p><textarea data-role="none" id="comments"></textarea></p>
+					</div>
+
+					<!-- <button type="submit" onclick="sendForm()"><span class="glyphicon glyphicon-ok"></span> Submit</button> -->
+					<div class="button-wrapper">
+						<button class="form-submit">
+							<span class="glyphicon glyphicon-ok"></span> Submit
+						</button>
+					</div>
+				</form>
+			</section>	
+
+			<footer>
+				<ul class="social-media">
+					<li>
+						<a href="http://www.linkedin.com/in/crystal-williams-92b28b10">
+						<img src="images/linkedin_sq.jpg">
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/CORT0619"><img src="images/github_sq.jpg"></a>
+					</li>
+					<li><a href="http://stackoverflow.com/users/5162698/cortney"><img src="images/stackoverflow_sq.jpg"></a>
+					</li>
+				</ul>
+				<p class="copyright">&copy; Copyright 2018. All Rights Reserved. Crystal R Williams.</p>
+			</footer>
+
+<!-- JavaScript -->
+	<script type="text/javascript" src="js/contact_me.js"></script>
+
+</body>
+</html>
